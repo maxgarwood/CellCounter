@@ -1,0 +1,29 @@
+output/
+__pycache__/
+.DS_Store
+.venv/
+app_errors.log
+
+# Test and lab images are kept out of git (large files)
+/*.jpg
+/*.jpeg
+/*.png
+/*.tif
+/*.tiff
+snapshots/
+captures/
+
+# Packaging (see BUILD_WINDOWS.md)
+build-env/
+build/
+dist/
+Cell Counter for Windows.zip
+Windows build kit.zip
+
+# Kept on this Mac only, not published
+handoff.md
+corrections/
+User manual.pdf
+/Cell Counter.app/
+app_overview.tex
+self_test.txt
